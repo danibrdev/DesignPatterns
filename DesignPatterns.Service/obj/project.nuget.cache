@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "2K3/g6cA6O2R7p12bglkAjWD7m1Dy5nCHNLa2IDMgsjgNlrV7B4wcNV9bP1UuwtaVmzucTmApY6Nfm4GG6fWNA==",
+  "success": true,
+  "projectFilePath": "D:\\source\\Design Patterns\\DesignPatterns.Service\\DesignPatterns.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dani\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.logging.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\polly\\8.0.0-alpha.7\\polly.8.0.0-alpha.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\polly.core\\8.0.0-alpha.7\\polly.core.8.0.0-alpha.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

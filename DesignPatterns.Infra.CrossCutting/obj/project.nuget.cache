@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "OVW1kP9CbZcV9W/eZit5mjkv+qRfmPZpjfcPSYHZ0HVnzmufgySYTjAELJ2A+l0BFHBd0tY+cNunk9muioI/NQ==",
+  "success": true,
+  "projectFilePath": "D:\\source\\Design Patterns\\DesignPatterns.Infra.CrossCutting\\DesignPatterns.Infra.CrossCutting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dani\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.configuration.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencyinjection.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\microsoft.extensions.http\\8.0.0-preview.6.23329.7\\microsoft.extensions.http.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\microsoft.extensions.http.polly\\8.0.0-preview.6.23329.11\\microsoft.extensions.http.polly.8.0.0-preview.6.23329.11.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.6.23329.7\\microsoft.extensions.logging.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.logging.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.6.23329.7\\microsoft.extensions.options.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.6.23329.7\\microsoft.extensions.primitives.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\polly\\8.0.0-alpha.7\\polly.8.0.0-alpha.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\polly.core\\8.0.0-alpha.7\\polly.core.8.0.0-alpha.7.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

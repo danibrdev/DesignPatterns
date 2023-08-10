@@ -1,0 +1,285 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\source\\Design Patterns\\DesignPatterns.App\\DesignPatterns.App.csproj": {}
+  },
+  "projects": {
+    "D:\\source\\Design Patterns\\DesignPatterns.App\\DesignPatterns.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\Design Patterns\\DesignPatterns.App\\DesignPatterns.App.csproj",
+        "projectName": "DesignPatterns.App",
+        "projectPath": "D:\\source\\Design Patterns\\DesignPatterns.App\\DesignPatterns.App.csproj",
+        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\Design Patterns\\DesignPatterns.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Users\\Dani\\.dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\source\\Design Patterns\\DesignPatterns.Infra.CrossCutting\\DesignPatterns.Infra.CrossCutting.csproj": {
+                "projectPath": "D:\\source\\Design Patterns\\DesignPatterns.Infra.CrossCutting\\DesignPatterns.Infra.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.0.0-alpha.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Dani\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source\\Design Patterns\\DesignPatterns.Domain\\DesignPatterns.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\Design Patterns\\DesignPatterns.Domain\\DesignPatterns.Domain.csproj",
+        "projectName": "DesignPatterns.Domain",
+        "projectPath": "D:\\source\\Design Patterns\\DesignPatterns.Domain\\DesignPatterns.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\Design Patterns\\DesignPatterns.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Dani\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source\\Design Patterns\\DesignPatterns.Infra.CrossCutting\\DesignPatterns.Infra.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\Design Patterns\\DesignPatterns.Infra.CrossCutting\\DesignPatterns.Infra.CrossCutting.csproj",
+        "projectName": "DesignPatterns.Infra.CrossCutting",
+        "projectPath": "D:\\source\\Design Patterns\\DesignPatterns.Infra.CrossCutting\\DesignPatterns.Infra.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\Design Patterns\\DesignPatterns.Infra.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\source\\Design Patterns\\DesignPatterns.Domain\\DesignPatterns.Domain.csproj": {
+                "projectPath": "D:\\source\\Design Patterns\\DesignPatterns.Domain\\DesignPatterns.Domain.csproj"
+              },
+              "D:\\source\\Design Patterns\\DesignPatterns.Service\\DesignPatterns.Service.csproj": {
+                "projectPath": "D:\\source\\Design Patterns\\DesignPatterns.Service\\DesignPatterns.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.7, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Dani\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source\\Design Patterns\\DesignPatterns.Service\\DesignPatterns.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\Design Patterns\\DesignPatterns.Service\\DesignPatterns.Service.csproj",
+        "projectName": "DesignPatterns.Service",
+        "projectPath": "D:\\source\\Design Patterns\\DesignPatterns.Service\\DesignPatterns.Service.csproj",
+        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\Design Patterns\\DesignPatterns.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\source\\Design Patterns\\DesignPatterns.Domain\\DesignPatterns.Domain.csproj": {
+                "projectPath": "D:\\source\\Design Patterns\\DesignPatterns.Domain\\DesignPatterns.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.7, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.0.0-alpha.7, )"
+            },
+            "Polly.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Dani\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

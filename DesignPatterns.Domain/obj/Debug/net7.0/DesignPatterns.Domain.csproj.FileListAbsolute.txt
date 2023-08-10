@@ -1,0 +1,12 @@
+D:\source\Design Patterns\DesignPatterns.Domain\bin\Debug\net7.0\DesignPatterns.Domain.deps.json
+D:\source\Design Patterns\DesignPatterns.Domain\bin\Debug\net7.0\DesignPatterns.Domain.dll
+D:\source\Design Patterns\DesignPatterns.Domain\bin\Debug\net7.0\DesignPatterns.Domain.pdb
+D:\source\Design Patterns\DesignPatterns.Domain\obj\Debug\net7.0\DesignPatterns.Domain.csproj.AssemblyReference.cache
+D:\source\Design Patterns\DesignPatterns.Domain\obj\Debug\net7.0\DesignPatterns.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\Design Patterns\DesignPatterns.Domain\obj\Debug\net7.0\DesignPatterns.Domain.AssemblyInfoInputs.cache
+D:\source\Design Patterns\DesignPatterns.Domain\obj\Debug\net7.0\DesignPatterns.Domain.AssemblyInfo.cs
+D:\source\Design Patterns\DesignPatterns.Domain\obj\Debug\net7.0\DesignPatterns.Domain.csproj.CoreCompileInputs.cache
+D:\source\Design Patterns\DesignPatterns.Domain\obj\Debug\net7.0\DesignPatterns.Domain.dll
+D:\source\Design Patterns\DesignPatterns.Domain\obj\Debug\net7.0\refint\DesignPatterns.Domain.dll
+D:\source\Design Patterns\DesignPatterns.Domain\obj\Debug\net7.0\DesignPatterns.Domain.pdb
+D:\source\Design Patterns\DesignPatterns.Domain\obj\Debug\net7.0\ref\DesignPatterns.Domain.dll

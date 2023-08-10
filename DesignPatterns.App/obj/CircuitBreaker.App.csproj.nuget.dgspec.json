@@ -1,0 +1,281 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.App\\CircuitBreaker.App.csproj": {}
+  },
+  "projects": {
+    "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.App\\CircuitBreaker.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.App\\CircuitBreaker.App.csproj",
+        "projectName": "CircuitBreaker.App",
+        "projectPath": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.App\\CircuitBreaker.App.csproj",
+        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Users\\Dani\\.dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Infra.CrossCutting\\CircuitBreaker.Infra.CrossCutting.csproj": {
+                "projectPath": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Infra.CrossCutting\\CircuitBreaker.Infra.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.0.0-alpha.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Dani\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Domain\\CircuitBreaker.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Domain\\CircuitBreaker.Domain.csproj",
+        "projectName": "CircuitBreaker.Domain",
+        "projectPath": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Domain\\CircuitBreaker.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Dani\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Infra.CrossCutting\\CircuitBreaker.Infra.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Infra.CrossCutting\\CircuitBreaker.Infra.CrossCutting.csproj",
+        "projectName": "CircuitBreaker.Infra.CrossCutting",
+        "projectPath": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Infra.CrossCutting\\CircuitBreaker.Infra.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Infra.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Domain\\CircuitBreaker.Domain.csproj": {
+                "projectPath": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Domain\\CircuitBreaker.Domain.csproj"
+              },
+              "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Service\\CircuitBreaker.Service.csproj": {
+                "projectPath": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Service\\CircuitBreaker.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.7, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.0.0-alpha.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Dani\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Service\\CircuitBreaker.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Service\\CircuitBreaker.Service.csproj",
+        "projectName": "CircuitBreaker.Service",
+        "projectPath": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Service\\CircuitBreaker.Service.csproj",
+        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Domain\\CircuitBreaker.Domain.csproj": {
+                "projectPath": "D:\\source\\Design Patterns\\CircuitBreaker\\CircuitBreaker.Domain\\CircuitBreaker.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Polly": {
+              "target": "Package",
+              "version": "[8.0.0-alpha.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Dani\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

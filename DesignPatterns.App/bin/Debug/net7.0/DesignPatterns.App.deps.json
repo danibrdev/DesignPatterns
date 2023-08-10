@@ -1,0 +1,395 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DesignPatterns.App/1.0.0": {
+        "dependencies": {
+          "DesignPatterns.Infra.CrossCutting": "1.0.0",
+          "Microsoft.AspNetCore.OpenApi": "7.0.9",
+          "Microsoft.Extensions.Http.Polly": "8.0.0-preview.6.23329.11",
+          "Polly": "8.0.0-alpha.7",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "runtime": {
+          "DesignPatterns.App.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/7.0.9": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.4.3"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "7.0.9.0",
+            "fileVersion": "7.0.923.32110"
+          }
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
+      "Microsoft.Extensions.Configuration.Abstractions/8.0.0-preview.6.23329.7": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0-preview.6.23329.7"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.32907"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/8.0.0-preview.6.23329.7": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-preview.6.23329.7"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.32907"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0-preview.6.23329.7": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.32907"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http/8.0.0-preview.6.23329.7": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Logging": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Options": "8.0.0-preview.6.23329.7"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Http.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.32907"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http.Polly/8.0.0-preview.6.23329.11": {
+        "dependencies": {
+          "Microsoft.Extensions.Http": "8.0.0-preview.6.23329.7",
+          "Polly": "8.0.0-alpha.7",
+          "Polly.Extensions.Http": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.32911"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/8.0.0-preview.6.23329.7": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Options": "8.0.0-preview.6.23329.7"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.32907"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0-preview.6.23329.7": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-preview.6.23329.7"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.32907"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/8.0.0-preview.6.23329.7": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Primitives": "8.0.0-preview.6.23329.7"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.32907"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/8.0.0-preview.6.23329.7": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.32907"
+          }
+        }
+      },
+      "Microsoft.OpenApi/1.4.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.4.3.0",
+            "fileVersion": "1.4.3.0"
+          }
+        }
+      },
+      "Polly/8.0.0-alpha.7": {
+        "dependencies": {
+          "Polly.Core": "8.0.0-alpha.7"
+        },
+        "runtime": {
+          "lib/net7.0/Polly.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.1404"
+          }
+        }
+      },
+      "Polly.Core/8.0.0-alpha.7": {
+        "runtime": {
+          "lib/net7.0/Polly.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.1404"
+          }
+        }
+      },
+      "Polly.Extensions.Http/3.0.0": {
+        "dependencies": {
+          "Polly": "8.0.0-alpha.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Extensions.Http.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/6.5.0": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.5.0"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.5.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.4.3"
+        },
+        "runtime": {
+          "lib/net7.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "6.5.0.0",
+            "fileVersion": "6.5.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/6.5.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0"
+        },
+        "runtime": {
+          "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "6.5.0.0",
+            "fileVersion": "6.5.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/6.5.0": {
+        "runtime": {
+          "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "6.5.0.0",
+            "fileVersion": "6.5.0.0"
+          }
+        }
+      },
+      "DesignPatterns.Domain/1.0.0": {
+        "runtime": {
+          "DesignPatterns.Domain.dll": {}
+        }
+      },
+      "DesignPatterns.Infra.CrossCutting/1.0.0": {
+        "dependencies": {
+          "DesignPatterns.Domain": "1.0.0",
+          "DesignPatterns.Service": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Http.Polly": "8.0.0-preview.6.23329.11"
+        },
+        "runtime": {
+          "DesignPatterns.Infra.CrossCutting.dll": {}
+        }
+      },
+      "DesignPatterns.Service/1.0.0": {
+        "dependencies": {
+          "DesignPatterns.Domain": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0-preview.6.23329.7",
+          "Polly": "8.0.0-alpha.7",
+          "Polly.Extensions.Http": "3.0.0"
+        },
+        "runtime": {
+          "DesignPatterns.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DesignPatterns.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.OpenApi/7.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5kBnHntQTJqmYV66Khdl9OJ/j2Pw8cOKj8kNQuLCpfCsPbSijp334Vaad3vaGnG9Wpgq/VbSUSRxZOoroOe8zQ==",
+      "path": "microsoft.aspnetcore.openapi/7.0.9",
+      "hashPath": "microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
+      "path": "microsoft.extensions.apidescription.server/6.0.5",
+      "hashPath": "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/8.0.0-preview.6.23329.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JKEzeo1ss+O8elnZzNWrEUChhaFZwXHv/QNHkgtX4zWehAC9PQl8bZFL1Aiuhpv4rNKMkXBcK607g8DWnKlTJg==",
+      "path": "microsoft.extensions.configuration.abstractions/8.0.0-preview.6.23329.7",
+      "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/8.0.0-preview.6.23329.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t84VxCoS4PZ6kRfmmBQTcXDn7Ylpyg2F/p3WM8ZZKmZ6rasE4TRDKOOn/d+STmLf6/fCeiuPkRvGzyXTk4yeJg==",
+      "path": "microsoft.extensions.dependencyinjection/8.0.0-preview.6.23329.7",
+      "hashPath": "microsoft.extensions.dependencyinjection.8.0.0-preview.6.23329.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0-preview.6.23329.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-63NoexHyj5Z13tNcMiPSQSQTNgEajvH8ugIlRCRRGXA2kqT10Nb5IDCG3HNhjfRzvBcWGkvmSyu4tw3JmhL+sg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.6.23329.7",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/8.0.0-preview.6.23329.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-saXE2GTylaBSXhn+YDICCkZaZRftuMXyFotvUof4zwOyx9WlZd9DPFRNY2ibCFVJKodRGBpy5FIqjLtVp2O0kw==",
+      "path": "microsoft.extensions.http/8.0.0-preview.6.23329.7",
+      "hashPath": "microsoft.extensions.http.8.0.0-preview.6.23329.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http.Polly/8.0.0-preview.6.23329.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wl3qrWwyIwdVMKS6PIpYrJdIMFgRq1jy0GB1Q+JmURuHGIan91dTVnMHlJBqsAQKnRE3zZZNiOIzObhD+o+4sg==",
+      "path": "microsoft.extensions.http.polly/8.0.0-preview.6.23329.11",
+      "hashPath": "microsoft.extensions.http.polly.8.0.0-preview.6.23329.11.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/8.0.0-preview.6.23329.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Pxw0EYYpyVa8e/wRmB0G9etdJMQfdr9S9MJQkFExNWg4BMlV7Qn+e604EINC4bDEU6SpjKnLLIlH3wOKr147gQ==",
+      "path": "microsoft.extensions.logging/8.0.0-preview.6.23329.7",
+      "hashPath": "microsoft.extensions.logging.8.0.0-preview.6.23329.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0-preview.6.23329.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ExKscDWQ6noDd8265tXVv5BwpFaM0wFkZp7jQDkezgUv8TmYXTyFjtPZEyeytNMAnK3Dm8iC+L00kDKOibqCpA==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.0-preview.6.23329.7",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/8.0.0-preview.6.23329.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pB2cKipXFzozqBLG6CN8UXT9csuizara8MjGdGI8LqeY5tUk0n9ssDY/oPj6HCKAxACxYWbZMee3KzyVjOqd1Q==",
+      "path": "microsoft.extensions.options/8.0.0-preview.6.23329.7",
+      "hashPath": "microsoft.extensions.options.8.0.0-preview.6.23329.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/8.0.0-preview.6.23329.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jvzr7N107CgmY3yfRanUR54bhGgHq8oMX1gc9hwDE0Go+k+T2KrdAjhrcRxsZaj37+cLI2O1InAqOcf9GJ58+g==",
+      "path": "microsoft.extensions.primitives/8.0.0-preview.6.23329.7",
+      "hashPath": "microsoft.extensions.primitives.8.0.0-preview.6.23329.7.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
+      "path": "microsoft.openapi/1.4.3",
+      "hashPath": "microsoft.openapi.1.4.3.nupkg.sha512"
+    },
+    "Polly/8.0.0-alpha.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a+8HcOCC927iAMAva3OwoofSZGyW3dsl2owI9Olfb0oyBGnJCzZ+5o8d+Lv/CKggqh9kU3WjIq1/a/jw8fYnQA==",
+      "path": "polly/8.0.0-alpha.7",
+      "hashPath": "polly.8.0.0-alpha.7.nupkg.sha512"
+    },
+    "Polly.Core/8.0.0-alpha.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8d0RsdJ6GSWNDk2E5ZA3Yxnf5L+4dv6cCEzmBmCHeGQY9Ogaem56JjeQQhFJktHn941utYAdI/QMbiEyDq+EMg==",
+      "path": "polly.core/8.0.0-alpha.7",
+      "hashPath": "polly.core.8.0.0-alpha.7.nupkg.sha512"
+    },
+    "Polly.Extensions.Http/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-drrG+hB3pYFY7w1c3BD+lSGYvH2oIclH8GRSehgfyP5kjnFnHKQuuBhuHLv+PWyFuaTDyk/vfRpnxOzd11+J8g==",
+      "path": "polly.extensions.http/3.0.0",
+      "hashPath": "polly.extensions.http.3.0.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/6.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FK05XokgjgwlCI6wCT+D4/abtQkL1X1/B9Oas6uIwHFmYrIO9WUD5aLC9IzMs9GnHfUXOtXZ2S43gN1mhs5+aA==",
+      "path": "swashbuckle.aspnetcore/6.5.0",
+      "hashPath": "swashbuckle.aspnetcore.6.5.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XWmCmqyFmoItXKFsQSwQbEAsjDKcxlNf1l+/Ki42hcb6LjKL8m5Db69OTvz5vLonMSRntYO1XLqz0OP+n3vKnA==",
+      "path": "swashbuckle.aspnetcore.swagger/6.5.0",
+      "hashPath": "swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y/qW8Qdg9OEs7V013tt+94OdPxbRdbhcEbw4NiwGvf4YBcfhL/y7qp/Mjv/cENsQ2L3NqJ2AOu94weBy/h4KvA==",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.5.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/6.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OvbvxX+wL8skxTBttcBsVxdh73Fag4xwqEU2edh4JMn7Ws/xJHnY/JB1e9RoCb6XpDxUF3hD9A0Z1lEUx40Pfw==",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    },
+    "DesignPatterns.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DesignPatterns.Infra.CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DesignPatterns.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

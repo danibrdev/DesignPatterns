@@ -1,0 +1,17 @@
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\bin\Debug\net7.0\DesignPatterns.Infra.CrossCutting.deps.json
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\bin\Debug\net7.0\DesignPatterns.Infra.CrossCutting.dll
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\bin\Debug\net7.0\DesignPatterns.Infra.CrossCutting.pdb
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\bin\Debug\net7.0\DesignPatterns.Domain.dll
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\bin\Debug\net7.0\DesignPatterns.Service.dll
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\bin\Debug\net7.0\DesignPatterns.Domain.pdb
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\bin\Debug\net7.0\DesignPatterns.Service.pdb
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\obj\Debug\net7.0\DesignPatterns.Infra.CrossCutting.csproj.AssemblyReference.cache
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\obj\Debug\net7.0\DesignPatterns.Infra.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\obj\Debug\net7.0\DesignPatterns.Infra.CrossCutting.AssemblyInfoInputs.cache
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\obj\Debug\net7.0\DesignPatterns.Infra.CrossCutting.AssemblyInfo.cs
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\obj\Debug\net7.0\DesignPatterns.Infra.CrossCutting.csproj.CoreCompileInputs.cache
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\obj\Debug\net7.0\DesignPatterns.Infra.CrossCutting.csproj.CopyComplete
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\obj\Debug\net7.0\DesignPatterns.Infra.CrossCutting.dll
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\obj\Debug\net7.0\refint\DesignPatterns.Infra.CrossCutting.dll
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\obj\Debug\net7.0\DesignPatterns.Infra.CrossCutting.pdb
+D:\source\Design Patterns\DesignPatterns.Infra.CrossCutting\obj\Debug\net7.0\ref\DesignPatterns.Infra.CrossCutting.dll
